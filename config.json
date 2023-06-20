@@ -1,14 +1,13 @@
 {
-    "settings": {},
+    "settings": {
+        "odds": 500,
+        "command_name": "warp",
+        "command_description": "Warp to a random location in the galaxy and mine for Mining Keys."
+    },
     "roles": [
         {
             "name": "Verified_members",
             "id": "947021398147207205",
-            "time_span": "3600"
-        },
-        {
-            "name": "test",
-            "id": "1024099396981379179",
             "time_span": "3600"
         }
     ],
