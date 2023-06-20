@@ -22,7 +22,12 @@
             "7": "Hyperdrive success, Beyonder! You've got Mining Keys. You moved as swiftly as a pro running the Fun Runners course! <@342005215819595776>",
             "8": "Clear skies, Beyonder! You spotted Mining Keys in the cosmos. A sharpshooter's eye like in Last Stand. <@342005215819595776>",
             "9": "Smooth sailing, Beyonder! Mining Keys in hand. Tackle Fun Runners courses with that same grace. <@342005215819595776>",
-            "10": "Make a wish, Beyonder! Mining Keys are yours. Harness that galactic power like an interstellar conqueror in Last Stand. <@342005215819595776>"
+            "10": "Make a wish, Beyonder! Mining Keys are yours. Harness that galactic power like an interstellar conqueror in Last Stand. <@342005215819595776>",
+            "11": "Stellar achievement, Beyonder! You've successfully mined some Mining Keys. Your cosmic prowess is unmatched! Keep navigating the stars! <@342005215819595776>",
+            "12": "The universe is smiling upon you, Beyonder! Mining Keys have been secured. You're a true star pilot in the cosmic realm! <@342005215819595776>",
+            "13": "A round of cosmic applause, Beyonder! The Mining Keys are yours. You've got the explorer's spirit and the universe acknowledges it! <@342005215819595776>",
+            "14": "Orbit successfully achieved, Beyonder! You've docked with the Mining Keys. With such cosmic tenacity, the universe is your treasure trove! <@342005215819595776>",
+            "15": "Celestial triumph, Beyonder! The Mining Keys are now part of your astral arsenal. Your galactic navigation skills are the envy of space explorers! <@342005215819595776>"
         },
         "lose": {
             "1": "Alas, Beyonder! Your venture was valiant but this time the cosmos didn't favor you. Like a tense standoff in Last Stand, there's always another chance. Ready yourself for another try {timeStamp}",
@@ -34,7 +39,12 @@
             "7": "Like a dark planet blocking your path, Beyonder. Fear not. The next wormhole opens {timeStamp}. Chart your course.",
             "8": "Abducted by aliens! Beyonder, you'll be released from the tractor beam {timeStamp}. Keep your spirits high, like hunting loot in Fun Runners.",
             "9": "Meteor shower! Beyonder, don't get hit. Like dodging in Last Stand, you'll have your shot {timeStamp}. Keep your space boots on.",
-            "10": "A cosmic dust storm, Beyonder! Like dodging bullets in Last Stand, weave through and try again {timeStamp}."
+            "10": "A cosmic dust storm, Beyonder! Like dodging bullets in Last Stand, weave through and try again {timeStamp}.",
+            "11": "Don't be disheartened, Beyonder. Even the bravest space voyagers face setbacks. The universe will be ready for your next attempt {timeStamp}. Keep your blasters ready.",
+            "12": "Warp engine malfunction, Beyonder. Not to worry, the cosmic engineers are on it. You'll be ready to venture again {timeStamp}. Keep your star map handy.",
+            "13": "Black hole detour, Beyonder. You've been momentarily thrown off course. The galaxies will align for your next attempt {timeStamp}. Hold on to your spacesuit.",
+            "14": "Beyonder, an asteroid field disrupted your mission. Fear not, for the space lanes clear and you can attempt again {timeStamp}. Plot a new course.",
+            "15": "Cosmic rays jammed your sensors, Beyonder. Don't fret, recalibration is underway. Your next venture will be ready {timeStamp}. Chart the stars."
         },
         "wait": {
             "1": "Patience, Beyonder. The stars are still in motion. Your thrusters will be fully charged {timeStamp}. Keep your eyes on those Mining Keys.",
@@ -45,14 +55,30 @@
             "6": "Star mapping, Beyonder. The cosmic forces align {timeStamp}. Prepare for Mining Keys retrieval like dodging Fun Runners obstacles.",
             "7": "Quantum clock ticking, Beyonder. Mining Keys will be in reach {timeStamp}. Like prepping for an epic Last Stand battle.",
             "8": "Intergalactic signals aligning. Beyonder, {timeStamp} the Mining Keys will be ready for the taking. Like gearing up in Fun Runners.",
-            "9": "Safe cracking, Beyonder. The cosmos will unlock the Mining Keys {timeStamp}. Plan your approach like an ambush in Last Stand."
+            "9": "Safe cracking, Beyonder. The cosmos will unlock the Mining Keys {timeStamp}. Plan your approach like an ambush in Last Stand.",
+            "10": "Cosmic patience, Beyonder. The Mining Keys are almost within reach. The astral clock ticks and your moment will come {timeStamp}. Stay vigilant.",
+            "11": "Keep your navigation systems online, Beyonder. The Mining Keys will be in your grasp {timeStamp}. Stay the course and may the stars be with you!",
+            "12": "Stay in orbit, Beyonder. The universe is almost aligned for your next Mining Keys quest. Prepare for warp speed {timeStamp}. Keep the comms open.",
+            "13": "Beyonder, your starship needs refueling. Mining Keys will be at your fingertips {timeStamp}. Keep your thrusters warmed up and your star charts ready.",
+            "14": "Comet tail winds slow you down, Beyonder. Hold tight, as they'll carry you swiftly to the Mining Keys {timeStamp}. Await the cosmic breeze.",
+            "15": "Gathering cosmic energies, Beyonder. The interstellar currents are almost ready to deliver you the Mining Keys {timeStamp}. Keep your navigational antennas high."
         },
         "permission": {
             "1": "Access Denied. The stars forbid it. Only the chosen Beyonders may seek the Mining Keys.",
             "2": "Seal of the Beyonders. You need the cosmic clearance to embark on this quest.",
             "3": "The nebula cloud obscures your path, Beyonders. Only those with the astral sign can pass.",
             "4": "Astral Guardians halt your quest. Only the chosen Beyonders may seek the Mining Keys.",
-            "5": "Trial by fire. Beyonders, only the purest in cosmic energy can proceed."
+            "5": "Trial by fire. Beyonders, only the purest in cosmic energy can proceed.",
+            "6": "Cosmic Gatekeeper bars the way. Only Beyonders with celestial essence may pass through the stardust barriers.",
+            "7": "Celestial Lockdown. The galaxies have sealed their secrets from you. Seek the Astral Key to unlock your destiny as a Beyonder.",
+            "8": "Starlight Deflection. The radiance of the cosmos turns you away. Only Beyonders with the luminescence of a supernova may enter.",
+            "9": "Wormhole Collapse. You need the astral compass to navigate the twisted paths. Seek the wisdom of the stars, Beyonder.",
+            "10": "Space-time Riddle. Solve the mysteries of the cosmos to prove your worth. Only true Beyonders may decipher the ancient star charts.",
+            "11": "Orbit Disruption! The planetary alignment prevents unauthorized access. Only the wise Beyonders who have charted the stars may proceed.",
+            "12": "The Quasar Council has spoken! Only Beyonders who have mastered the cosmic energies can embark on the quest for the Mining Keys.",
+            "13": "Cosmic Weave Obstruction. The fabric of space-time itself denies your passage. Seek the threads of destiny that mark true Beyonders.",
+            "14": "Stellar Dragons Guard. The ancient celestial creatures guard the Mining Keys. Only Beyonders with hearts as fierce as the stars may pass.",
+            "15": "Pulsar Code Required. The frequencies of the universe need to be tuned to your essence. Only the harmonic Beyonders can unlock the cosmic song."
         }
     }
 }
