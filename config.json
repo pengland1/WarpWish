@@ -1,0 +1,59 @@
+{
+    "settings": {},
+    "roles": [
+        {
+            "name": "Verified_members",
+            "id": "947021398147207205",
+            "time_span": "3600"
+        },
+        {
+            "name": "test",
+            "id": "1024099396981379179",
+            "time_span": "3600"
+        }
+    ],
+    "responses": {
+        "win": {
+            "1": "Stellar maneuvering, Beyonder! You've successfully mined some Mining Keys. Feels like dominating in a game of Last Stand, doesn't it? Keep it up! <@342005215819595776>",
+            "2": "Impeccable agility, Beyonder! You've navigated through the asteroid belt and secured Mining Keys. Your agility would make you a champion in Fun Runners! <@342005215819595776>",
+            "3": "Bravo, Beyonder! Your galactic finesse has rewarded you with Mining Keys. Keep that fighting spirit, as if battling in Last Stand! <@342005215819595776>",
+            "4": "Beyonder, you've navigated the nebula and procured Mining Keys! That's some dexterity worthy of dodging obstacles in Fun Runners. <@342005215819595776>",
+            "5": "A cosmic victory, Beyonder! Mining Keys are now in your possession. You've got the sharp aim of a Last Stand marksman! <@342005215819595776>",
+            "6": "Precision Beyonder! Your starry endeavors reaped Mining Keys. Race through Fun Runners with this same determination! <@342005215819595776>",
+            "7": "Hyperdrive success, Beyonder! You've got Mining Keys. You moved as swiftly as a pro running the Fun Runners course! <@342005215819595776>",
+            "8": "Clear skies, Beyonder! You spotted Mining Keys in the cosmos. A sharpshooter's eye like in Last Stand. <@342005215819595776>",
+            "9": "Smooth sailing, Beyonder! Mining Keys in hand. Tackle Fun Runners courses with that same grace. <@342005215819595776>",
+            "10": "Make a wish, Beyonder! Mining Keys are yours. Harness that galactic power like an interstellar conqueror in Last Stand. <@342005215819595776>"
+        },
+        "lose": {
+            "1": "Alas, Beyonder! Your venture was valiant but this time the cosmos didn't favor you. Like a tense standoff in Last Stand, there's always another chance. Ready yourself for another try {timeStamp}",
+            "2": "Not this time, Beyonder. It's like slipping in Fun Runners. Fear not, the stars realign {timeStamp} for your next endeavor. Sharpen those reflexes.",
+            "3": "Steel yourself, Beyonder. Sometimes, the cosmic winds are harsh. Gear up for another quest {timeStamp}. Keep the prize in sight!",
+            "4": "Beyonder, a minor setback. Like respawning in Last Stand, you'll have another shot at Mining Keys {timeStamp}. Stay focused.",
+            "5": "Space turbulence! Beyonder, re-calibrate your coordinates and try again {timeStamp}. Akin to a Last Stand reload. Patience.",
+            "6": "Astral interference, Beyonder. Align your stars like you would your aim in Last Stand, and be ready {timeStamp}",
+            "7": "Like a dark planet blocking your path, Beyonder. Fear not. The next wormhole opens {timeStamp}. Chart your course.",
+            "8": "Abducted by aliens! Beyonder, you'll be released from the tractor beam {timeStamp}. Keep your spirits high, like hunting loot in Fun Runners.",
+            "9": "Meteor shower! Beyonder, don't get hit. Like dodging in Last Stand, you'll have your shot {timeStamp}. Keep your space boots on.",
+            "10": "A cosmic dust storm, Beyonder! Like dodging bullets in Last Stand, weave through and try again {timeStamp}."
+        },
+        "wait": {
+            "1": "Patience, Beyonder. The stars are still in motion. Your thrusters will be fully charged {timeStamp}. Keep your eyes on those Mining Keys.",
+            "2": "Hold steady, Beyonder. The interstellar winds are still calibrating. Mining Keys await you {timeStamp}. Plot your course carefully.",
+            "3": "Hold your trajectory, Beyonder. Mining Keys will be within your grasp {timeStamp}. Let the thought of victory guide you through the stars!",
+            "4": "Beyonder, keep your telescope fixed. Mining Keys will be within reach {timeStamp}. Use this time like planning strategies in Last Stand.",
+            "5": "Astral alignment {timeStamp}, Beyonder. The Mining Keys await, as if you're respawning in Last Stand. Focus your energies.",
+            "6": "Star mapping, Beyonder. The cosmic forces align {timeStamp}. Prepare for Mining Keys retrieval like dodging Fun Runners obstacles.",
+            "7": "Quantum clock ticking, Beyonder. Mining Keys will be in reach {timeStamp}. Like prepping for an epic Last Stand battle.",
+            "8": "Intergalactic signals aligning. Beyonder, {timeStamp} the Mining Keys will be ready for the taking. Like gearing up in Fun Runners.",
+            "9": "Safe cracking, Beyonder. The cosmos will unlock the Mining Keys {timeStamp}. Plan your approach like an ambush in Last Stand."
+        },
+        "permission": {
+            "1": "Access Denied. The stars forbid it. Only the chosen Beyonders may seek the Mining Keys.",
+            "2": "Seal of the Beyonders. You need the cosmic clearance to embark on this quest.",
+            "3": "The nebula cloud obscures your path, Beyonders. Only those with the astral sign can pass.",
+            "4": "Astral Guardians halt your quest. Only the chosen Beyonders may seek the Mining Keys.",
+            "5": "Trial by fire. Beyonders, only the purest in cosmic energy can proceed."
+        }
+    }
+}
