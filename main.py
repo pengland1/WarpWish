@@ -45,7 +45,7 @@ def isAccessible(userRoles):
             return True
     return False
 
-def getRandomResponse(responseType, rawTimeStampText):
+def getRandomResponseTimestamp(responseType, rawTimeStampText):
     """
     Function to get a random response from the config.json file and replace the {timeStamp} with the appropriate timestamp text.
     """
@@ -133,7 +133,7 @@ async def warp_command(interaction):
                 if time.time() - userTime < timeSpan:
                     print(f"User {interaction.user.id} prompted wait response.")
                     timeStampJSON = "{\"userTime\": " + f"{userTime}" + ", \"timeSpan\": " + f"{timeSpan}" + "}"
-                    await interaction.response.send_message(f"<@{interaction.user.id}> - {getRandomResponse('wait', timeStampJSON)}", ephemeral = True, delete_after = 15)
+                    await interaction.response.send_message(f"<@{interaction.user.id}> - {getRandomResponseTimestamp('wait', timeStampJSON)}", ephemeral = True, delete_after = 15)
                     isWithinHour = True
                     break
                 else:
@@ -148,12 +148,12 @@ async def warp_command(interaction):
             if(roll == 1):
                 print(f"User {interaction.user.id} prompted win response.")
                 timeStampJSON = "{\"userTime\": " + f"{currentTime}" + ", \"timeSpan\": " + f"{timeSpan}" + "}"
-                await interaction.response.send_message(f"<@{interaction.user.id}> - {getRandomResponse('win', timeStampJSON)}")
+                await interaction.response.send_message(f"<@{interaction.user.id}> - {getRandomResponseTimestamp('win', timeStampJSON)}")
             
             else:
                 print(f"User {interaction.user.id} prompted lose response.")
                 timeStampJSON = "{\"userTime\": " + f"{currentTime}" + ", \"timeSpan\": " + f"{timeSpan}" + "}"
-                await interaction.response.send_message(f"<@{interaction.user.id}> - {getRandomResponse('lose', timeStampJSON)}")
+                await interaction.response.send_message(f"<@{interaction.user.id}> - {getRandomResponseTimestamp('lose', timeStampJSON)}")
                 
             # Define function to write dictionary data into a json format
             def writeToWarpJournal(file_data, tempDict):
