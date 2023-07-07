@@ -34,6 +34,20 @@ def getLowestTimeSpan():
         index = index + 1
     return timespan
 
+def getFirstAvailableTimespan(userRoles):
+    #   Open the config.json file and load the data into a variable
+    file = open("config.json")
+    configData = json.load(file)
+    file.close()
+
+    # Extract the IDs from userRoles into a set for efficient lookup
+    userRoleIds = set(str(role.id) for role in userRoles)
+
+    for role in configData["roles"]:
+        if str(role["id"]) in userRoleIds:
+            return int(role["time_span"])
+    
+
 def isAccessible(userRoles):
     
     file = open("config.json")
@@ -105,7 +119,7 @@ async def warp_command(interaction):
     Slash command function for the warp command
     """
     # Get time span and check if user has access
-    timeSpan = getLowestTimeSpan()
+    timeSpan = getFirstAvailableTimespan(interaction.user.roles)
     hasAccess = isAccessible(interaction.user.roles)
 
     #   If user does not have access, send a message saying so
