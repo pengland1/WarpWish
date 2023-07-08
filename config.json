@@ -2,13 +2,24 @@
     "settings": {
         "odds": 500,
         "command_name": "warp",
-        "command_description": "Warp to a random location in the galaxy and mine for Mining Keys."
+        "command_description": "Warp to a random location in the galaxy and mine for Mining Keys.",
+        "log_command_name": "warplog",
+        "log_command_description": "View your warp statistics."
     },
     "roles": [
         {
-            "name": "Verified_members",
-            "id": "947021398147207205",
+            "name": "test1",
             "time_span": "3600"
+        },
+        {
+            "name": "test3",
+            "id": "1126979904500662395",
+            "time_span": "10800"
+        },
+        {
+            "name": "test2",
+            "id": "1126979883638214826",
+            "time_span": "7200"
         }
     ],
     "responses": {
@@ -80,5 +91,87 @@
             "14": "Stellar Dragons Guard. The ancient celestial creatures guard the Mining Keys. Only Beyonders with hearts as fierce as the stars may pass.",
             "15": "Pulsar Code Required. The frequencies of the universe need to be tuned to your essence. Only the harmonic Beyonders can unlock the cosmic song."
         }
-    }
+    },
+    "warp_locations": [
+        {
+            "name": "Nebula Sanctuary",
+            "lore": "Legend has it that the bravest warriors of Last Stand sought refuge here to meditate and train. The cosmic energies are said to grant combatants unparalleled focus and power."
+        },
+        {
+            "name": "Orion's Landing",
+            "lore": "A hub for space travelers, and a famed pit-stop for Fun Runners participants. The streets are abuzz with racers tweaking their anti-gravity boots and gear."
+        },
+        {
+            "name": "Titanus Prime",
+            "lore": "Ancient stone carvings on this planet depict giants wielding weapons resembling those used in Last Stand. The inhabitants hold a battle festival annually in honor of these mythical warriors."
+        },
+        {
+            "name": "Starlight Oasis",
+            "lore": "Some say that the luminescent waters of this moon were once used to create the power-ups and boosts used in Fun Runners."
+        },
+        {
+            "name": "Astral Peaks",
+            "lore": "The sharpshooters of Last Stand are rumored to undergo endurance training here, scaling the treacherous peaks to improve their agility and marksmanship."
+        },
+        {
+            "name": "Zephyr Station",
+            "lore": "This station is built from remnants of ships that competed in an epic space version of Fun Runners, where racers navigated through storms at breakneck speeds."
+        },
+        {
+            "name": "Shadow's Veil",
+            "lore": "A notorious hiding spot for those who have faced defeat in Last Stand. They say it's a place where fallen warriors can rebuild and plot their triumphant return."
+        },
+        {
+            "name": "Celestial Gardens",
+            "lore": "Rumor has it that the first Fun Runners race was inspired by the serene paths and bioluminescent trails of the Celestial Gardens."
+        },
+        {
+            "name": "Crystal Caverns of Xel'Naga",
+            "lore": "The energy within these crystals is said to be the same as the respawn technology used in Last Stand."
+        },
+        {
+            "name": "Helios Gate",
+            "lore": "An ancient race used this gate to travel between dimensions and observe various contests, including Last Stand and Fun Runners."
+        },
+        {
+            "name": "Lunar Sea Isles",
+            "lore": "The fluid courses in Fun Runners are thought to be inspired by the ever-changing shores of these isles."
+        },
+        {
+            "name": "The Arcane Archives",
+            "lore": "Contains records of the legendary champions and heroes of Last Stand alongside ancient texts."
+        },
+        {
+            "name": "Skyshard Reach",
+            "lore": "Runners in Fun Runners seek the shards that fall here to upgrade their running gear with celestial energy."
+        },
+        {
+            "name": "The Rings of Solara",
+            "lore": "A galactic race track for the most daring Fun Runners, where participants dodge and weave through rings made of gemstones."
+        },
+        {
+            "name": "Nova Forge",
+            "lore": "The ultimate reward for winners of Last Stand, where they forge their weapons using the power of stars."
+        },
+        {
+            "name": "The Cosmic Bazaar",
+            "lore": "A place to buy vintage Fun Runners and Last Stand merchandise. Collectors and players frequent the bazaar to obtain rare items."
+        },
+        {
+            "name": "Elysian Fields",
+            "lore": "Where the greatest Last Stand warriors are said to rest, their spirits often seen battling under the eternal rainbow."
+        },
+        {
+            "name": "Infinity Pulsar",
+            "lore": "This pulsar grants one wish, many Fun Runners participants come here hoping for the speed and agility to win."
+        },
+        {
+            "name": "Quantum Isles",
+            "lore": "The isles are said to contain the secret of the warp technology used in both Fun Runners and Last Stand."
+        },
+        {
+            "name": "The Abyssal Depths",
+            "lore": "Legends speak of a colossal sea creature that once participated in Last Stand as a final boss, now resting at the bottom of the abyss."
+        }
+    ]
 }
