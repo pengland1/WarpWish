@@ -47,7 +47,6 @@ def getFirstAvailableTimespan(userRoles):
         if str(role["id"]) in userRoleIds:
             return int(role["time_span"])
     
-
 def isAccessible(userRoles):
     
     file = open("config.json")
@@ -196,4 +195,5 @@ async def warp_command(interaction):
             }
             writeToWarpJournal(data, tempDict)
         file.close()
+
 client.run(TOKEN)
